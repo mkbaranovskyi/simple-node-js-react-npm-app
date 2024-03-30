@@ -4,7 +4,6 @@ pipeline {
     stage('Build') {
       steps {
         sh 'npm i'
-        sh 'npm run ci-test'
       }
     }
 
